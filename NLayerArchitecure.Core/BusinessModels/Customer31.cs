@@ -7,6 +7,6 @@ namespace NLayerArchitecure.Core.BusinessModels
     public class Customer31
     {
         public string CustomerId { get; set; }
-        public string Customerid { get; set; }
+        public string id { get; set; } 
     }
 }

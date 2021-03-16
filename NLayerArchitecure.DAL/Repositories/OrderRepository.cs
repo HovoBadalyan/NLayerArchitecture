@@ -34,5 +34,7 @@ namespace NLayerArchitecure.DAL.Repositories
 
             return query.ToList();
         }
+       
+        
     }
 }

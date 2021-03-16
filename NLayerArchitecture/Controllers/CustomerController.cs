@@ -23,5 +23,7 @@ namespace NLayerArchitecture.API.Controllers
             var res=customerOperations.GetCustomer31();
             return Ok(res);
         }
+        
+
     }
 }

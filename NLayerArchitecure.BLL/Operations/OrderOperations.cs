@@ -31,6 +31,7 @@ namespace NLayerArchitecure.BLL.Operations
             return order;
         }
 
+       
         public IEnumerable<InventoryListModel> GetInventoryList()
         {
             return _orderRepository.GetInventoryList();

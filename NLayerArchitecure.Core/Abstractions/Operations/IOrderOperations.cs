@@ -9,6 +9,7 @@ namespace NLayerArchitecure.Core.Abstractions.Operations
     public interface IOrderOperations
     {
         IEnumerable<InventoryListModel> GetInventoryList();
+       
         IEnumerable<OrderViewModel> GetOrders();
         public Order GetOrderid(int id);
         public Order UpdateOrder(OrderViewModel orderView);

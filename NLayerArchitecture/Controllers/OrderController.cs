@@ -35,6 +35,7 @@ namespace NLayerArchitecture.Controllers
             var result = _orderOperations.GetInventoryList();
             return Ok(result);
         }
+        
 
         [HttpGet("{id}")]
         public IActionResult GetOrderId([FromRoute]int id)
